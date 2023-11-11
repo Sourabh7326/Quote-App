@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Sourabh7326/Quote-App.git/static/css/main.ecbc2c08.css",
+    "main.js": "/Sourabh7326/Quote-App.git/static/js/main.d8ba05d8.js",
+    "static/media/background.jpg": "/Sourabh7326/Quote-App.git/static/media/background.c0588c2491ac27ec5d1e.jpg",
+    "index.html": "/Sourabh7326/Quote-App.git/index.html",
+    "main.ecbc2c08.css.map": "/Sourabh7326/Quote-App.git/static/css/main.ecbc2c08.css.map",
+    "main.d8ba05d8.js.map": "/Sourabh7326/Quote-App.git/static/js/main.d8ba05d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecbc2c08.css",
+    "static/js/main.d8ba05d8.js"
+  ]
+}
