@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap');
+
+
+#root , html , body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    height: 100%;
+    
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.card{
+    background-color: whitesmoke;
+    width: 45%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    border-radius: 25px;
+    padding: 3pxpx;
+    box-shadow: 10px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.heading{
+     display: flex;
+     align-items: center;
+     height: 380px;
+     font-family: 'League Spartan', sans-serif;
+     font-style: italic;
+     font-size: 2.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+
+@media only screen and (max-width:600px){
+    .card{
+        width: 80%;
+        height: 30%;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
